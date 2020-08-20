@@ -12,7 +12,7 @@
 	<groupId>com.fa</groupId>
 	<artifactId>spring</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>FbExtensionAPI</name>
 	<description>Facebook Extension API</description>
 
