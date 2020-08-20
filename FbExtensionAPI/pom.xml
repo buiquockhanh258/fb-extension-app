@@ -66,11 +66,14 @@
 			<plugin>
 				<groupId>com.heroku.sdk</groupId>
 				<artifactId>heroku-maven-plugin</artifactId>
+				<version>3.0.3</version>
+			</plugin>
+			<plugin>
+				<groupId>com.heroku.sdk</groupId>
+				<artifactId>heroku-maven-plugin</artifactId>
 				<configuration>
-					<appName>${heroku.appName}</appName>
 					<processTypes>
-						<web>java $JAVA_OPTS -cp target/classes:target/dependency/*
-							com.extension.FbExtensionApiApplication</web>
+						<web>java $JAVA_OPTS -cp target/classes:target/dependency/* FbExtensionApiApplication</web>
 					</processTypes>
 				</configuration>
 			</plugin>
